@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Detection System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Face Detection System</h1>
+        <div class="content">
+            <label for="idInput">Enter ID:</label>
+            <input type="text" id="idInput">
+            <button id="startButton">Start Recognition</button>
+        </div>
+        <video id="video" width="640" height="480" autoplay></video>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="face-api.min.js"></script>
+    <script src="kontrol.js"></script>
+</body>
+</html>
